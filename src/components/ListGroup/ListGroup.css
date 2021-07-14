@@ -1,0 +1,41 @@
+.list-item {
+  border-bottom: 1px solid #a3a3a3;
+  list-style: none;
+  padding: 1rem;
+  background-color: #30475e;
+  display: flex;
+  align-items: center;
+}
+
+.list-item:last-child {
+  border-bottom: none;
+}
+
+.list-item-text {
+  flex: 1;
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.list-item_button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: #dc3546ab;
+  color: #fff;
+}
+
+.list-item button:hover {
+  cursor: pointer;
+  background-color: #dc3545;
+}
+
+.list-item-link:hover {
+  cursor: pointer;
+  background-color: #dc3545;
+}
+
+.list-item-title {
+  text-align: center;
+}
